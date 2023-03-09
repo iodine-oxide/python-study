@@ -16,4 +16,3 @@ while True:
         break
     var_list = [a, b, c]
     comp_list.append(var_list)
-
