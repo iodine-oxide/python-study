@@ -15,6 +15,5 @@ while True:
                 print("Invalid")
         break
     var_list = [a, b, c]
-    var_list = sorted(var_list)
     comp_list.append(var_list)
 
