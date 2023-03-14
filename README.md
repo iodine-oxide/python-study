@@ -1,6 +1,6 @@
 # python-study(백준)
 
-# 사용 기법 및 알고리즘 정리 [문제집](https://www.acmicpc.net/workbook/view/8708)
+# 사용 기법 및 알고리즘 정리 [(문제집)](https://www.acmicpc.net/workbook/view/8708)
 
 ## [5073번, B3](https://www.acmicpc.net/problem/5073)[(코드)](https://github.com/iodine-oxide/python-study/blob/main/study_code_files/5073.py)
 - 이차원 list를 생성후 삼각형의 기본 원리 조건
