@@ -24,3 +24,9 @@
 - 딕셔너리에서 list(dictionary.keys())와 list(dictionary.values())를 이용하여 각각 알파벳과 나온 횟수를 list로 추출
 - value list를 sort하여 값이 2개 이상인 경우 ?처리 해당 조건문에서 값이 1개일 때를 고려하여 조건 생성
 - value list(sort 적용X)의 max값의 index를 list.index를 통해 도출, key list의 해당 인덱스 값을 반환
+
+## [11723번, S5](https://www.acmicpc.net/problem/11723)[(코드)](https://github.com/iodine-oxide/python-study/blob/main/study_code_files/11723.py)
+- 기본적인 set에 대한 이해
+- remove 명령에 대해 remove를 사용하면 set에 해당 인자가 없으면 오류가 발생하므로 discard 사용
+- switch문을 구현하기위하여 dictionary를 사용하고자 하였으나, 오히려 딕셔너리로 구현 시 함수 호출로 인하여 실행시간이 초과됨
+- 여러 인자를 추가할 경우 update()이용
