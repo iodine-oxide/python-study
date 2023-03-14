@@ -15,7 +15,7 @@ for j in fn_list:
         loc = 0
         for l in range(1, len(line)):
             if line[l] < line[0]:
-                continue
+                break
             else:
                 loc = l
         line.insert(loc, line.pop(0))
