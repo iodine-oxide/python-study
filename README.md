@@ -30,3 +30,8 @@
 - remove 명령에 대해 remove를 사용하면 set에 해당 인자가 없으면 오류가 발생하므로 discard 사용
 - switch문을 구현하기위하여 dictionary를 사용하고자 하였으나, 오히려 딕셔너리로 구현 시 함수 호출로 인하여 실행시간이 초과됨
 - 여러 인자를 추가할 경우 update()이용
+
+## [9655번, S5](https://www.acmicpc.net/problem/9655)[(코드)](https://github.com/iodine-oxide/python-study/blob/main/study_code_files/9655.py)
+- 수학적 알고리즘만 구성하면 매우 쉬움
+- 3 부터 시작한다고 할 때 처음 시작시 1개 혹은 3개만 가져감으로 게임의 결과는 돌이 한개 적거나 3개 적은 게임의 결과와 반대임
+- 따라서 결국 홀수개의 돌일때는 상근이가, 짝수개의 돌일떄는 창영이가 이김
