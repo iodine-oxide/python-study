@@ -42,3 +42,7 @@
 - 입력받은 순서대로 줄을 만드는 list(line)에 삽입함과 동시에 list를 순차적으로 순회하면서 해당 숫자가 삽입될 위치를 확인
 - 확인과정에서 위치에 변동이 있으면 loc(기본값 0)으로 정의된 위치 변수의 값 변환, 없으면 break
 - 변경된 loc값에 값을 집어넣고 움직인 횟수 변수(move)에 loc값 더하기
+
+## [8979번, S5](https://www.acmicpc.net/problem/8979)[(코드)](https://github.com/iodine-oxide/python-study/blob/main/study_code_files/8979.py)
+- 입력받은 수들에 대해서 금메달 수 부터 비교하며 조건에 안맞으면 continue
+- remove로 실행시간 줄이려 하였으나 그러면 동일 대상에 대한 순위 반영 안됨
