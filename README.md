@@ -46,3 +46,11 @@
 ## [8979번, S5](https://www.acmicpc.net/problem/8979)[(코드)](https://github.com/iodine-oxide/python-study/blob/main/study_code_files/8979.py)
 - 입력받은 수들에 대해서 금메달 수 부터 비교하며 조건에 안맞으면 continue
 - remove로 실행시간 줄이려 하였으나 그러면 동일 대상에 대한 순위 반영 안됨
+
+## [7568번, S5](https://www.acmicpc.net/problem/7568)[(코드)](https://github.com/iodine-oxide/python-study/blob/main/study_code_files/7568.py)
+- 사람의 무게와 키, 등수는 기본을 1로 하여 정보를 가지는 이차원 배열생성
+- 이차원 배열을 순회하며 자신보다 큰 사람이 있으면 등수에 1을 더함
+- ps.딕셔너리의 경우 같은 정보를 가지는 경우 몸무게와 키가 같으면 정보가 무시됨.. 딕셔너리에 매몰되지 말자...
+
+## [4659번, S5](https://www.acmicpc.net/problem/4659)[(코드)](https://github.com/iodine-oxide/python-study/blob/main/study_code_files/4659.py)
+- 비밀번호를 받아 예외처리 조건들을 앞에 두고 이후에는 허용되지 않는 비밀번호를 조건을 두어 불만족시 조건을 확인하는 루프문을 이탈
